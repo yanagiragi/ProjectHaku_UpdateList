@@ -46,6 +46,7 @@
 * other area space bug
 
 </details>
+
 ## 1.4
 
 > fix room-Boiserie and Room-shelf bug(Shelf separate into two parts)
