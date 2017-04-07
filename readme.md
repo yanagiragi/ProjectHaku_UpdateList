@@ -19,7 +19,7 @@
 
 
 <details>
-<summary>Bugs required Fix:</summary>
+<summary>Bugs require Fix:</summary>
 
 * collider fix, 
 * hinge joint fix, 
@@ -38,7 +38,7 @@
 > Still non-static
 
 <details>
-<summary>Bugs required Fix:</summary>
+<summary>Bugs require Fix:</summary>
 	
 * Hinge joint fix
 * exit sign for upper cube of door(Maybe Ricgh Text UI will fix it)
@@ -54,7 +54,7 @@
 > Add windows.max for needs of boolean expression when adding windows
 
 <details>
-<summary>Bugs required Fix:</summary>
+<summary>Bugs require Fix:</summary>
 	
 * Hinge joint fix
 * exit sign for upper cube of door(Maybe Ricgh Text UI will fix it)
@@ -70,7 +70,7 @@
 > Still non-static
 
 <details>
-<summary>Bugs required Fix:</summary>
+<summary>Bugs require Fix:</summary>
 
 * Hinge joint fix
 * exit sign for upper cube of door(Maybe Ricgh Text UI will fix it)
@@ -89,7 +89,7 @@
 > Still non-static
 
 <details>
-<summary>Bugs required Fix:</summary>
+<summary>Bugs require Fix:</summary>
 
 * Hinge joint fix
 
