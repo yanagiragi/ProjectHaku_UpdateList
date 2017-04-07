@@ -95,3 +95,18 @@
 
 </details>
 	
+## 1.7
+
+> Add Props: Tray, Mug, KirbyMug, CupCake, Record Player
+
+> Finish Section: Book Shelef of Office
+
+> Still non-static
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Hinge joint fix
+
+</details>
+	
