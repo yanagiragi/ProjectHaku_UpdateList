@@ -124,3 +124,19 @@
 * Hinge joint fix
 
 </details>
+
+## 1.9
+
+> Add Props: Creeper Doll, Kirby Doll, Flowers, Mac Keyboard&Mouse
+
+> Adjust Desktop structure
+
+> Almost ready to start bake light
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Hinge joint fix
+
+</details>
+
