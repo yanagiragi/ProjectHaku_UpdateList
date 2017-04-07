@@ -109,4 +109,18 @@
 * Hinge joint fix
 
 </details>
-	
+
+## 1.8
+
+> Add Props: Spinning Top, Golden Laugh
+
+> Try Add Reflection Probe Under top for top's reflection, however result is not good. Depreciated for now.
+
+> Still non-static
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Hinge joint fix
+
+</details>
