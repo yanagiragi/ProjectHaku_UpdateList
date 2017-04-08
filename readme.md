@@ -140,3 +140,34 @@
 
 </details>
 
+## 2.0
+
+> Adjust Ceiling light
+
+> trying add Fur Shader to Dools, but due to resouce-consuming depreciated.
+
+> trying adjust material of spinning top, however it stay for original mat for now.
+
+> Almost ready to start bake light
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Hinge joint fix // May Not Needed? <- if restrict access to other room?
+
+</details>
+
+## 2.1
+
+> Adjust Wall Frames
+
+> Almost ready to start bake light
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Hinge joint fix // May Not Needed? <- if restrict access to other room?
+
+* Lack of Office Props on Haku's Desktop
+
+</details>
