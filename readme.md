@@ -186,6 +186,13 @@
 > Lots of workaround for beautify Scenes
 
 <details>
+<summary>Preview</summary>
+
+<img src="img/3.0preview.png">
+
+</details>
+
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Lack of Office Props on Haku's Desktop
