@@ -1,5 +1,12 @@
 # Update List
 
+
+### Version Semantics: 
+
+    Major. Minor. isNotShaderCacheContained (1 if not Contained)
+
+<hr>
+
 ## 1.0 
 > Add Basic Folder Structures
 
@@ -167,6 +174,32 @@
 <summary>Bugs require Fix:</summary>
 
 * Hinge joint fix // May Not Needed? <- if restrict access to other room?
+
+* Lack of Office Props on Haku's Desktop
+
+</details>
+
+## 3.0
+
+> Lighting Baked
+
+> Lots of workaround for beautify Scenes
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+</details>
+
+## 3.1
+
+> Fix Position of Caffe Table, Console
+
+> Adjust Exposure and Rotation of Skybox
+
+<details>
+<summary>Bugs require Fix:</summary>
 
 * Lack of Office Props on Haku's Desktop
 
