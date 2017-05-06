@@ -211,3 +211,77 @@
 * Lack of Office Props on Haku's Desktop
 
 </details>
+
+## 4.0 Merged
+
+> Merge Project With M,P Version
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+</details>
+
+## 4.1 
+
+> Note: Compressed With lightmap, ShaderCache, etc.
+
+> Backup of new Lightmap
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+</details>
+
+## 4.2
+
+> Import some of haku animation
+
+> Build up simple demo of HeadLookController, BreathController
+
+> HeadLookHelper is depreciated due to it may cause "The Exorcist"
+
+> Adding Enviornment Compensation Light, Haku Compensation Light (Now Both are Directional Light with different Culling Mask)
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+</details>
+
+## 4.3
+
+> Update Idle State Animation: Blending(Actually additvely blend) Animation of sitting.fbx from mixamo.com, trying syncing with BreathController
+
+> Params:
+
+	*	AvatarMask: Torse & two arms (NO HAND & IK)
+
+	*	BreathController: Duration: 0.78
+
+	*	AnimtaionController: BreathLayer.Delay -> BreathLayer.Breathing: Transition Duration = 0.25, Offset = 0
+
+	*	AnimtaionController: BreathLayer.Breathing: Speed = 1
+
+	*	Animtaion: sitting.fbx: frame 177 - frame 363 + AvatarMask
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+</details>
