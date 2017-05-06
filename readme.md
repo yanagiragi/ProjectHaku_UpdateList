@@ -300,7 +300,22 @@
 
 	*	Temporaily change to Uniform Haku Instead
 
-> ch
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Considering use Uniform Haku Instead of OL Haku
+
+</details>
+
+## 4.5
+
+> Finish Haku Office Animator: Lag Layer
 
 <details>
 <summary>Bugs require Fix:</summary>
