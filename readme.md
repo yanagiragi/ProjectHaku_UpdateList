@@ -287,3 +287,31 @@
 * Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
 
 </details>
+
+## 4.4
+
+> Adding Tracking target for HMD (Now Param: z = -1.93)
+
+> Trying Blend Legs part with previous parts, However Foot Ik reacts wierd
+
+	* 	Use 3ds max reconstruct Animation (So many works)
+
+	*	However OL Haku's Heels won't move
+
+	*	Temporaily change to Uniform Haku Instead
+
+> ch
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Considering use Uniform Haku Instead of OL Haku
+
+</details>
+
