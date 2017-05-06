@@ -269,6 +269,8 @@
 
 	*	BreathController: Duration: 0.78
 
+	*	AnimtaionController: BreathLayer: Additively, weight = 0.15
+
 	*	AnimtaionController: BreathLayer.Delay -> BreathLayer.Breathing: Transition Duration = 0.25, Offset = 0
 
 	*	AnimtaionController: BreathLayer.Breathing: Speed = 1
