@@ -381,3 +381,30 @@
 * The Scale of Camera Rig Should be adjusted
 
 </details>
+
+## 4.8
+
+> Fix Gravity Bug
+
+	* Gravity is propotion to  scale 
+
+	* Wierd AddForce after realeasing grab object is because I rotated [CameraRig]
+
+> Update Simple give gift interaction
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Considering use Uniform Haku Instead of OL Haku
+
+* UpperBody Randome motion script not finished
+
+* The scale of room props should be adjusted
+
+</details>
