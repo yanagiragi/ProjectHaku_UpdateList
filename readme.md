@@ -315,7 +315,7 @@
 
 ## 4.5
 
-> Finish Haku Office Animator: Lag Layer
+> Finish Haku Office Animator: Leg Layer
 
 <details>
 <summary>Bugs require Fix:</summary>
@@ -330,3 +330,54 @@
 
 </details>
 
+## 4.6
+
+> Setup Haku Office Animator: UpperBody Layer
+
+> Setup Randomly Leg Motion Script
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Considering use Uniform Haku Instead of OL Haku
+
+</details>
+
+## 4.7
+
+> Setup Simple grab object controll
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Considering use Uniform Haku Instead of OL Haku
+
+* UpperBody Randome motion script not finished
+
+* Wall Collider needs to be fit exact space more
+
+* Floor Collider needs to be fit exact space more
+
+* Gravity: Due to the scene is two big, acts like moon
+
+	* Shrink the scene
+
+	* Override single scene gravity settings
+
+* The place of rose should be adjusted
+
+* The Scale of Camera Rig Should be adjusted
+
+</details>
