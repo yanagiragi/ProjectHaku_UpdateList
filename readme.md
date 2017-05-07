@@ -408,3 +408,24 @@
 * The scale of room props should be adjusted
 
 </details>
+
+## 4.9
+
+> Update Basic Lunch Scene
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Considering use Uniform Haku Instead of OL Haku
+
+* UpperBody Randome motion script not finished
+
+* The scale of room props should be adjusted
+
+</details>
