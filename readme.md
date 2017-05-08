@@ -429,3 +429,28 @@
 * The scale of room props should be adjusted
 
 </details>
+
+## 5.0
+
+> Update Hurt Effect in Minecraft, Time countdown, etc.
+
+> Update Game Control of Minecraft Scene
+
+> Update Simple Whole Game Control
+
+> Confirmed use Uniform Haku Instead of OL Haku
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* UpperBody Randome motion script not finished
+
+* The scale of room props should be adjusted
+
+</details>
