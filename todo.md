@@ -4,11 +4,15 @@
 
 * LunchScene Cleanup Func  (重要度：高)
 
+* 環境GI (重要度：高)
+
 * Bgm  (重要度：高)
 
 * 遊戲第0場景  (重要度：高)
 
-* loading...效果 (重要度：低) 
+* loading...效果 (重要度：低)
+
+
 
 <br />
 
