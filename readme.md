@@ -386,7 +386,7 @@
 
 > Fix Gravity Bug
 
-	* Gravity is propotion to  scale 
+	* Gravity is propotion to scale 
 
 	* Wierd AddForce after realeasing grab object is because I rotated [CameraRig]
 
@@ -439,6 +439,65 @@
 > Update Simple Whole Game Control
 
 > Confirmed use Uniform Haku Instead of OL Haku
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* UpperBody Randome motion script not finished
+
+* The scale of room props should be adjusted
+
+</details>
+
+## 5.1
+
+> Update Controller details
+
+> I forgot what I've done :(
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* UpperBody Randome motion script not finished
+
+* The scale of room props should be adjusted
+
+</details>
+
+## 5.2
+
+> Update Tutorial change image solution(hit.point to uv)
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Lack of Office Props on Haku's Desktop
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* UpperBody Randome motion script not finished
+
+* The scale of room props should be adjusted
+
+</details>
+
+## 5.3
+
+> ScreenFadeOut when changing scene (now only attached on Minecraft)
 
 <details>
 <summary>Bugs require Fix:</summary>
