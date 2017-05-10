@@ -513,3 +513,26 @@
 * The scale of room props should be adjusted
 
 </details>
+
+## 5.5
+
+> Merged from ProjectHaku_P_Version5.4
+
+> Construct Full Dropping gift script in Office Scene(All Gifts & after drop & detect drop with headLookController)
+
+> Construct simple upper body animator (However random play script are not finished yet)
+
+> Construct Planes that able to teleport
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* UpperBody Randome motion script not finished // almost done
+
+* The scale of room props should be adjusted
+
+</details>
