@@ -711,3 +711,21 @@
 * More less-important details are in todo.md
 
 </details>
+
+## 7.0
+
+> Finished Scene:BadEnding
+
+> Construct Basic scene controll of Scene:GoodEnding, need testing and finish it with HMD on
+
+<summary>Bugs require Fix:</summary>
+
+* Wierd physics are because of specialArea Collider in cameraRig?
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
