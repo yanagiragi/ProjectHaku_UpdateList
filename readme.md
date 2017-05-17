@@ -634,11 +634,11 @@
 
 </details>
 
-## 6.6
+## 6.6.5
 
 > Adjust BeforeLunchScene without physics effects on animation, a.k.a. broke meshes
 
-> Not quite sure waht updated in this version
+> .5 is for haven't clean up experimental animations
 
 <summary>Bugs require Fix:</summary>
 
@@ -651,6 +651,8 @@
 </details>
 
 ## 6.7
+
+> clean up experimental animations
 
 > Adjust BeforeLunchScene
 
