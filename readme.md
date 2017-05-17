@@ -574,7 +574,7 @@
 
 ## 6.0
 
-> Finished Crape and crab Lucnh Scene
+> Finished Crape and crab Lunch Scene
 
 > Not quite sure waht updated in this version
 
@@ -633,9 +633,46 @@
 * More less-important details are in todo.md
 
 </details>
-## 5.9
 
-> Finished Crape Scene + Determined road
+## 6.6
+
+> Adjust BeforeLunchScene without physics effects on animation, a.k.a. broke meshes
+
+> Not quite sure waht updated in this version
+
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
+
+## 6.7
+
+> Adjust BeforeLunchScene
+
+	裙子用bake，彎腰時破圖
+
+	頭髮用MMD4Mecanim 的 Bullet Physics + MMDRigidbody 的 Cube
+
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
+
+## 6.8
+
+> Add Opening Scene
+
+> Minecraft 全部串接 (計時倒數、GameStart/Over Canvas)，只缺ipad控制
 
 <summary>Bugs require Fix:</summary>
 
