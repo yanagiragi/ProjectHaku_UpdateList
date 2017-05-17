@@ -590,7 +590,7 @@
 
 ## 6.2 ~ 6.2.8
 
-> experiment with revised animatiobs
+> experiment with revised animations
 
 <summary>Bugs require Fix:</summary>
 
