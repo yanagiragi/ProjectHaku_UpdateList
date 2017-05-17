@@ -670,11 +670,37 @@
 
 ## 6.8
 
-> Add Opening Scene
+> Add Scene: Opening 
 
-> Minecraft 全部串接 (計時倒數、GameStart/Over Canvas)，只缺ipad控制
+> Minecraft 全部串接 (計時倒數、GameStart/Over Canvas、creeper dying effects)，只缺ipad控制
 
 <summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
+
+## 6.9
+
+> Add Tutorial Control in Scene:Minecraft
+
+> Setting up Scene:Before Lunch
+
+> Finish concat Scene:BeforeLunch and Scene:Lunch
+
+> Trying setup Ending Scene for more details (Now Add: Canvas anim, camera change position)
+
+> Force Rendering support to dx11 in windows, however MKGlow not fixed?
+
+> Ignore dxd9d in some shaders(Axi) of ArchVizPRO
+
+<summary>Bugs require Fix:</summary>
+
+* Wierd physics are because of specialArea Collider in cameraRig?
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
 
