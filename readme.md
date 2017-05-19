@@ -809,6 +809,12 @@
 
 > 加入Lunch Ipad
 
+> 修正SpawnAtPoint Bug: 因為CameraEye 和 CameraRig本身的Scale的引響(將CameraRig Scele 調成1解決，不過因此 Scene:Office 東西位置需要再微調)
+
+> 修正 修正SpawnAtPoint Bug 之後地板會閃爍：拿掉 PlaneRefection就可以了(可能是之前改DXD9的關係)
+
+> 修正 Minecraft CleanUp 沒有兩隻手把都啟用的bug
+
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
