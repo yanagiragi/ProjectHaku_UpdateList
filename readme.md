@@ -748,7 +748,26 @@
 
 ## 7.2
 
-> Finished Scene:GoodEnding
+> Finished Scene:GoodEnding (Not checked in VR)
+
+<summary>Bugs require Fix:</summary>
+
+* Wierd physics are because of specialArea Collider in cameraRig?
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
+
+
+## 7.3
+
+> Finished Scene:GoodEnding & Scene:BadEnding & Scene:Opening, Not including art details
+
+> Add Scripting Control to bgm fadeIn/Out
 
 <summary>Bugs require Fix:</summary>
 
