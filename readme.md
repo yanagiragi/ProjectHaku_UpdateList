@@ -878,3 +878,27 @@
 * More less-important details are in todo.md
 
 </details>
+
+## 7.8
+
+> Update Hint in Scene:Office
+
+> Update Dialog Sprite in Scene:BeforeLunch & adjust time for changing scene
+
+> Update Eaten effects on crape & crab(Add Donut)
+
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Should add: Haku eating morph and SFXs
+
+* Scene:Lunch LaserPointer Bug
+
+* More less-important details are in todo.md
+
+</details>
