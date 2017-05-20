@@ -857,3 +857,24 @@
 * More less-important details are in todo.md
 
 </details>
+
+## 7.7
+
+> LunchScene, EndingScene * 2 材質、光照完成！
+
+	註記：無法看見蠟燭是因為跟背後玻璃的transparent相衝?
+
+> Fix goodEnding CleanUp Bug
+
+> Fix goodEnding SpawnAtPoint Bug
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
