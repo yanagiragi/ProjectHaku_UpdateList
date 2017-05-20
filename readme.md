@@ -543,6 +543,7 @@
 
 > Add Special Areas For haku to peek
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -562,6 +563,7 @@
 
 > Finished Basic Crab Scene (including Morph Controll & revised anim, however not baked physics)
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -578,6 +580,8 @@
 
 > Not quite sure waht updated in this version
 
+
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -592,6 +596,7 @@
 
 > experiment with revised animations
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -606,6 +611,7 @@
 
 > Revised Animations and fixing wierd bug when fast entering giving gift's collider, causing haku look at you while her hands still typing (Update: Ver 6.5 Not Fixed?)
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -624,6 +630,7 @@
 
 > add experimental scene: Office Before Lunch
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -640,6 +647,7 @@
 
 > .5 is for haven't clean up experimental animations
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -660,6 +668,7 @@
 
 	頭髮用MMD4Mecanim 的 Bullet Physics + MMDRigidbody 的 Cube
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -667,6 +676,7 @@
 * Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
 
 * More less-important details are in todo.md
+
 
 </details>
 
@@ -676,6 +686,7 @@
 
 > Minecraft 全部串接 (計時倒數、GameStart/Over Canvas、creeper dying effects)，只缺ipad控制
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -700,6 +711,7 @@
 
 > Ignore dxd9d in some shaders(Axi) of ArchVizPRO
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
@@ -718,6 +730,7 @@
 
 > Construct Basic scene controll of Scene:GoodEnding, need testing and finish it with HMD on
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
@@ -734,6 +747,7 @@
 
 > Merge with Project_M_ver6.5, Adjust Scene:Office prop's scale
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
@@ -750,6 +764,7 @@
 
 > Finished Scene:GoodEnding (Not checked in VR)
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
@@ -769,6 +784,7 @@
 
 > Add Scripting Control to bgm fadeIn/Out
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
@@ -785,6 +801,7 @@
 
 > Finished Bgm Controlling
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * Wierd physics are because of specialArea Collider in cameraRig?
@@ -815,6 +832,7 @@
 
 > 修正 Minecraft CleanUp 沒有兩隻手把都啟用的bug
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
@@ -829,6 +847,7 @@
 
 > Adjust Skirt
 
+<details>
 <summary>Bugs require Fix:</summary>
 
 * MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
