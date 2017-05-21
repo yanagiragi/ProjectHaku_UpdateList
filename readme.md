@@ -902,3 +902,47 @@
 * More less-important details are in todo.md
 
 </details>
+
+## 7.9
+
+> Adjust Haku's scale in whole game
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Should add: Haku eating morph and SFXs
+
+* Scene:Lunch LaserPointer Bug
+
+* More less-important details are in todo.md
+
+</details>
+
+## 8.0
+
+> 修正 Vive Tutorial ReleaseObj 時給予velocity, augularVelocity 的問題(應該要用local座標系的速度、角速度)
+
+	所以在此之後Camera可以Rotate了
+
+> 建立API: 固定出生點視角 (根據 Start 時頭盔位置計算CameraRig轉動量，並根據旋轉之後位置重新指定位置)
+
+> 尚未套用到Office以外的場景(最需要的應該是BeforeLunch)
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* Should add: Haku eating morph and SFXs
+
+* Scene:Lunch LaserPointer Bug
+
+* More less-important details are in todo.md
+
+</details>
