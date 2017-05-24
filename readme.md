@@ -946,3 +946,78 @@
 * More less-important details are in todo.md
 
 </details>
+
+## 8.1 ~ 8.4
+
+> 因為未詳細紀錄更新紀錄，所以直接整合在一起
+
+> 紀錄上次更新API細節: 固定出生點視角 修正
+	
+	兩種做法：
+
+	一為根據Camera轉動場景，在生成位置 但是這樣就無法static (舊的作法) // 不好
+
+	二為根據位置計算CameraRig的轉動位移跟位置位移
+
+> 修正新API之後 Ending 場景切換 Camera 位置
+
+	因為轉動之後位移量不再是直接用加的，不過GoodEnding並未做視角控制，沿用舊版
+
+> 初步 Bake 中，效果還好，但是
+
+	光線在天花板處有明顯分界 // 應該是因為point light + 半圓燈罩? 正常嗎?
+
+	沒有陰影的感覺 也沒有樹葉陰影的感覺
+
+> 建立完整第0場景，修正移動到MenuBg的Bug
+
+	因為下面的Plane 在手把的 TeleportMask中
+
+	強迫完成教學的設計模式 (但是無法處理喜歡亂搞的玩家)
+
+> 加入 GoodEnding 觀眾
+
+> 加入Office Judge 禮物時轉頭
+
+> 修正 Office 給東西動畫的bug (因為 Update UpperBodyMotion使用 IEnumerator，所以控制城拿東西後馬上被 Assign 回 Keyboard了)
+
+> 修正複數Bug
+
+	* 修正 Lunch LaserPointer Bug
+
+	* 調整 Minecraft Canvas位置
+
+	* Office 撿不到東西 // 沒問題啊?
+
+	* Lunch 要離Haku進一點
+
+	* Minecraft場景拿不到Ipad // 修改擺放位置
+
+	* 調整 BeforeLunch Bgm 音量到 0.3 // 原本的兩倍
+
+	* 修正BadEnding Haku表情 
+	
+	* Office表情慢一點點 // 因為加入轉頭
+
+	* Haku頭髮Shader透明? // 因為貼圖本身那邊有alpha = 255的狀況，change MainTex to HairNT
+
+	*  Office Keyboard 音效 // 不過沒有fadeIn, Out, 沒有很fit手指動作
+
+> 註記：
+
+	加頭髮 > 小穿越
+
+	裙子物理沒有考慮到左右腳切換
+
+	Idle -> take東西會小小穿越裙子 // 先不處理!
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* Shadow of Realtime Direction Light Behavior really wierd (Just Like Silent Hills, WTF)
+
+* More less-important details are in todo.md
+
+</details>
