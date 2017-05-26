@@ -1032,47 +1032,47 @@
 
 * 根據使用者回饋做了以下調整(以及修正bug)：
 
-	Opening 教學場景 Canvas位置調整
+		Opening 教學場景 Canvas位置調整
 
-	放寬ipad 中間頁面切換
+		放寬ipad 中間頁面切換
 
-	提示有的劍不能砍 -> 劍data Canvas
+		提示有的劍不能砍 -> 劍data Canvas
 
-	天花板避免順移 -> 不過還是有無法避免的狀況
+		天花板避免順移 -> 不過還是有無法避免的狀況
 
-	午餐新增對話框 "那我們回去吧!" "你要吃嗎 我喂你"
+		午餐新增對話框 "那我們回去吧!" "你要吃嗎 我喂你"
 
-	午餐Crape 位置 // 不調整
+		午餐Crape 位置 // 不調整
 
-	Adjust 午餐Face Collider // 避免瀏海穿越到臉中
+		Adjust 午餐Face Collider // 避免瀏海穿越到臉中
 
-	拿掉 午餐胸前collider // 雖然說對側邊長瀏海有幫助，但是似乎對於後面馬尾影響過大
+		拿掉 午餐胸前collider // 雖然說對側邊長瀏海有幫助，但是似乎對於後面馬尾影響過大
 
-	Office Haku馬尾有點怪 (不過 BeforeLunch 不會? // 目前暫時拿掉，不過會不會是因為Dynamic Bone?
+		Office Haku馬尾有點怪 (不過 BeforeLunch 不會? // 目前暫時拿掉，不過會不會是因為Dynamic Bone?
 
-	Frame 位置調整 // 拿掉 Collider
+		Frame 位置調整 // 拿掉 Collider
 
-	快速按下去留聲機會怪怪的? // 做relay 切換
+		快速按下去留聲機會怪怪的? // 做relay 切換
 
-	Office 頭髮穿透 // 重新調整椅子位置 Scale
+		Office 頭髮穿透 // 重新調整椅子位置 Scale
 
-	Office Haku 補償光 ++
+		Office Haku 補償光 ++
 
-	Ending固定在視角? // 暫不考慮
+		Ending固定在視角? // 暫不考慮
 
-	修改Ending Canvas: 請在他身邊看著他
+		修改Ending Canvas: 請在他身邊看著他
 
-	Haku Wedding 太慢 // 把音樂fadeOut 割成 IEnumerator
+		Haku Wedding 太慢 // 把音樂fadeOut 割成 IEnumerator
 
-	不放觀眾 // 暫時拿掉，有人反應很令人分心?
+		不放觀眾 // 暫時拿掉，有人反應很令人分心?
 
-	ipad Coliider怪怪的? // 因為射線射到手把Controller，目前把cube size改成 (.7, .7, .7)
+		ipad Coliider怪怪的? // 因為射線射到手把Controller，目前把cube size改成 (.7, .7, .7)
 
-	修正 部分 Office 不應為 Static 的物件
+		修正 部分 Office 不應為 Static 的物件
 
-	修正 GoodEnding / BadEnding SpawnPoint Bug
+		修正 GoodEnding / BadEnding SpawnPoint Bug
 
-	加入 EndingScene 箭頭提示要看的方向 // 有點醜?
+		加入 EndingScene 箭頭提示要看的方向 // 有點醜?
 
 <details>
 <summary>Bugs require Fix:</summary>
