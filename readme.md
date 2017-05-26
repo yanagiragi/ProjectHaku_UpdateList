@@ -1131,6 +1131,8 @@
 
 		 苦力怕被擊退
 
+		 修正 HurtCapsule 不自然的shader結果 // WorkAround
+
 <details>
 <summary>Bugs require Fix:</summary>
 
