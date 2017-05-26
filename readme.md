@@ -1073,3 +1073,81 @@
 	修正 GoodEnding / BadEnding SpawnPoint Bug
 
 	加入 EndingScene 箭頭提示要看的方向 // 有點醜?
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* More less-important details are in todo.md
+
+</details>
+
+# 8.7
+
+* 根據使用者回饋做了以下調整(以及修正bug)：
+
+		 教學說明改成 "按下兩側的箭頭"
+
+		 最後一頁 Hover
+
+		 Minecraft 傳送門
+
+		 拿起來才消失 劍Canvas
+
+		 Minecraft fallback 回第一版地板
+
+		 Tray 打光  //維持原樣
+
+		 教學說明改成 "把禮物親手交給她"
+
+		 修正 Office // 現在也會有RectileNo
+
+		 Rectile Red warning // 原來是忘了assign texture
+
+		 Opening Scene 加入 "試著移動看看" "試著抓取Ipad"
+
+		 教學字體統一到 華康竹風體(P)
+
+		 Minecraft放到最後多一頁 "PS 有些劍不能拿"
+
+		 Office 時間長一點 // 180sec
+
+		 Haku 電腦的圖, 自己電腦的圖
+
+		 Frame 提示
+
+		 咳嗽聲 自己吃的聲音 太小聲  咳嗽換回原本的版本, maleHamu pitch = 1.23
+
+		 Lunch Loop 回去時考慮暫停Animator 跟 hamu音效
+
+		 GoodEnding 光影閃爍  Haku身後的柱子  原因是因為realtime光，已拿掉
+
+		 分數bug  Lunch IncScore 放在 Update
+
+		 Office 送東西 Collider 偵測附上手把的雙重保險?  類似 Sword isGrabed的方式
+
+		 午餐椅子的collider
+
+		 苦力怕被擊退
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* 以下不確定是否採納與修正：
+
+		* Minecraft Canvas 此把劍無法傷害苦力怕
+
+		* BeforeLunch Hair Collider修正
+
+		* 晃很久苦力怕bug
+
+		* Rectile bug?
+
+		* 拿起東西的機制
+
+* More less-important details are in todo.md
+
+</details>
