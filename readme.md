@@ -1153,3 +1153,47 @@
 * More less-important details are in todo.md
 
 </details>
+
+# 8.7
+
+* 根據使用者回饋做了以下調整(以及修正bug)：
+
+		 辦公室提示改成送其中一個禮物後消失
+
+		 修改 Lunch Haku 肩膀動畫幅度
+
+* 在 Minecraft 放入陀螺
+
+* 修正 GoodEnding 中 Haku 的光影效果
+
+* 拿掉 Minecraft場景中的布幔 // 在 Realtime 光影下有閃爍問題
+
+* 修改Player Settings(ProjectName, Icon, Cursor)
+
+* 調整 Lunch SFX 平衡
+
+* 將Spinning Top 加上髮絲紋的法線貼圖
+
+* 些微修正午餐頭髮的物理，但是依舊會抖動
+
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* MKII Glow Shader Bug on d3d9x // One Workaround is to exclude direct9 on build setting
+
+* 以下不確定是否採納與修正：
+
+		* Minecraft Canvas 此把劍無法傷害苦力怕
+
+		* BeforeLunch Hair Collider修正
+
+		* 晃很久苦力怕bug
+
+		* Rectile bug?
+
+		* 拿起東西的機制
+
+* More less-important details are in todo.md
+
+</details>
