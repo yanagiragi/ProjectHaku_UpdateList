@@ -1154,7 +1154,7 @@
 
 </details>
 
-# 8.7
+# 8.8
 
 * 根據使用者回饋做了以下調整(以及修正bug)：
 
@@ -1193,6 +1193,67 @@
 		* Rectile bug?
 
 		* 拿起東西的機制
+
+* More less-important details are in todo.md
+
+</details>
+
+# 8.9 ~ 9.0
+
+* 修正 MKGlow Shader Error // 只是忘了上Glow貼圖?
+
+* 導入新系統：Eye Raycast // Office 拿掉 Mune, yarashi Threshold 設成 150
+
+* 根據使用者回饋做了以下調整(以及修正bug)：
+
+		 * BeforeOffice/Office 桌子邊修正 // 弄新的Plane替代
+
+		* 拿掉 Cursor (炸掉惹)
+
+		* Office Desktop Props Scale 跑掉了 // 拿掉書
+
+		* 修正 Office 筆筒位置
+
+		* Office 天花板燈有點空虛 // 放 Point Light, 用 range + culling mask, 但是還是會有Distance問題
+
+		*  Office Donut 位置上來一點點
+
+		* Office Keyboard 聲音調小
+
+		* BeforeOffice 陀螺應該要轉 // 直接拿掉陀螺
+
+		* Ending要把 Keyboard 播放 cut 掉 // 直接volume Fade 到 0
+
+		* Minecraft 陀螺位置
+
+		* BadEnding BGM 有點小聲 // 調成 0.6
+
+		* BadEnding Haku的腳要上面一點
+
+		* Opening 沒有 RectileNo 效果? // 現在有了
+
+		* Opening 教學 .5f 的 Delay // .3f更直覺，但是容易點太快
+
+		* 修正 Minecraft 場景有時候拿不出劍 // 因為 CameraCollider, 用 Collision Layer 解決
+
+		* 修正 Minecraft 場景 Hurt Effect Bug
+
+		* 修正 GoodEnding Rectile Offset 太小
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* More less-important details are in todo.md
+
+</details>
+
+
+# 9.1
+
+* 裙子動畫修正
+
+<details>
+<summary>Bugs require Fix:</summary>
 
 * More less-important details are in todo.md
 
