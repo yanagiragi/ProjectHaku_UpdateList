@@ -1258,3 +1258,35 @@
 * More less-important details are in todo.md
 
 </details>
+
+# 9.2
+
+* 修正Office 在手收回去時用丟的送禮物的bug 以及 同時拿兩個禮物靠近，一個送她另一個前後進去Collider的bug
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Minecraft 武器快速換手會有音樂沒有撥放的bug
+
+* More less-important details are in todo.md
+
+</details>
+
+# 9.3
+
+* 修正Office Keyboard 位置
+
+* Build 參數： 
+	
+	Demo 版 -> Office 時間 90秒， score > 5 Ending
+
+	Release 版 -> Office 時間 150秒， score > 65 Ending
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Minecraft 武器快速換手會有音樂沒有撥放的bug
+
+* More less-important details are in todo.md
+
+</details>
