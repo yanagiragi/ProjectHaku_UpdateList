@@ -1290,3 +1290,29 @@
 * More less-important details are in todo.md
 
 </details>
+
+# 9.4
+
+* 增加 AlterEnding (Not Achievable Ending)
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Minecraft 武器快速換手會有音樂沒有撥放的bug
+
+* More less-important details are in todo.md
+
+</details>
+
+# 9.5
+
+* 修正Haku 褲襪貼圖
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Minecraft 武器快速換手會有音樂沒有撥放的bug
+
+* More less-important details are in todo.md
+
+</details>
