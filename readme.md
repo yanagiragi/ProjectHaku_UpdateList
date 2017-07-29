@@ -1316,3 +1316,18 @@
 * More less-important details are in todo.md
 
 </details>
+
+# ~ 9.8 (Final)
+
+* 加入 Haku Nade
+
+* 修正遊玩參數
+
+<details>
+<summary>Bugs require Fix:</summary>
+
+* Minecraft 武器快速換手會有音樂沒有撥放的bug
+
+* More less-important details are in todo.md
+
+</details>
