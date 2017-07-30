@@ -1331,7 +1331,7 @@
 
 </details>
 
-# ~ 9.9 (Final)
+# 9.9 (Final)
 
 * 專案 Clean up
 
