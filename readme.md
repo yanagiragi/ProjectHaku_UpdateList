@@ -1390,15 +1390,15 @@
 
 OLD
 
-![](./img/old3.png)
-![](./img/old2.png)
-![](./img/old1.png)
+![](img/old3.PNG)
+![](img/old2.PNG)
+![](img/old1.PNG)
 
 NEW
 
-![](./img/new3.png)
-![](./img/new2.png)
-![](./img/new1.png)
+![](img/new3.PNG)
+![](img/new2.PNG)
+![](img/new1.PNG)
 
 * 加入燈泡 + 很微量的 Bloom，雖然到 Bloom 微量到燈泡不太有 glow 的效果，但是考慮到 Bloom Luminance Threshold 不好調，其他東西太亮，算是做一個取捨
 
