@@ -1346,11 +1346,11 @@
 
 # 10.0 ~ 11.1 (Project Haku II)
 
-### Opening 場景
+## Opening 場景
 
 * 小幅度修正光影，柔和一點點點 (我也忘了我到底有沒有調過啦)
 
-### Minecraft 場景
+## Minecraft 場景
 
 * 修正 Minecraft 特殊行為 造成的 bug
 	
@@ -1386,7 +1386,19 @@
 
 		* 修改後：45 秒
 
-### BeforeLunchOffice 場景
+## BeforeLunchOffice 場景
+
+OLD
+
+![](./img/old3.png)
+![](./img/old2.png)
+![](./img/old1.png)
+
+NEW
+
+![](./img/new3.png)
+![](./img/new2.png)
+![](./img/new1.png)
 
 * 加入燈泡 + 很微量的 Bloom，雖然到 Bloom 微量到燈泡不太有 glow 的效果，但是考慮到 Bloom Luminance Threshold 不好調，其他東西太亮，算是做一個取捨
 
@@ -1398,172 +1410,184 @@
 
 		* 拿掉修補用的 Area Light
 
-* 光源設置，修改前: 
+* 光源設置，修改前:
+    <details>
+    <summary>
+        展開
+    </summary>
 
-		* 三個大範圍的點光源 (高Range) 照亮環境
+    * 三個大範圍的點光源 (高Range) 照亮環境
 
-			Color = (255, 255, 255)
-			Baked
-			Range: 10
-			Intensity = .96
-			Bounce Intensity = 1
-			Soft Shadow (Holy ShXt，我當初到底在想甚麼)
+                Color = (255, 255, 255)
+                Baked
+                Range: 10
+                Intensity = .96
+                Bounce Intensity = 1
+                Soft Shadow (Holy ShXt，我當初到底在想甚麼)
 
-		* 三個設置在燈罩底下的 Spotlight
+            * 三個設置在燈罩底下的 Spotlight
 
-			Rotation = (90, 0, 0)
-			Color = (255, 255, 255)
-			Baked
-			Angle = 14.38
-			Spot Angle = 30			
-			Intensity = 1
-			Bounce Intensity = 1
+                Rotation = (90, 0, 0)
+                Color = (255, 255, 255)
+                Baked
+                Angle = 14.38
+                Spot Angle = 30			
+                Intensity = 1
+                Bounce Intensity = 1
 
-		* 三個補充牆壁暗處的 Area Light 
+            * 三個補充牆壁暗處的 Area Light 
 
-			Rotation = (-90, 0, 0)
-			width = 24.45219
-			hieght = 0.6878968
-			Color = (255, 255, 255)
-			Bounce Intensity = 1
+                Rotation = (-90, 0, 0)
+                width = 24.45219
+                hieght = 0.6878968
+                Color = (255, 255, 255)
+                Bounce Intensity = 1
 
-		* 主要平行光  (向房內照射)
-			Rotation = (-43.375, -33.975, 43.441)
-			Color = (224, 236, 188)
-			Baked
-			Intensity = 0.6
-			Bounce Intensity = 1
-			Soft Shadow
+            * 主要平行光  (向房內照射)
+                Rotation = (-43.375, -33.975, 43.441)
+                Color = (224, 236, 188)
+                Baked
+                Intensity = 0.6
+                Bounce Intensity = 1
+                Soft Shadow
 
-		* 次要平行光 (向房內照射)
+            * 次要平行光 (向房內照射)
 
-			Color = (255, 255, 255)
-			Realtime
-			Bounce Intensity = 1
-			No Shadow
+                Color = (255, 255, 255)
+                Realtime
+                Bounce Intensity = 1
+                No Shadow
 
-		* Haku 補償平行光
+            * Haku 補償平行光
 
-		* 一個 Reflection Probe 設置在場景中央
+            * 一個 Reflection Probe 設置在場景中央
 
-		* 若干個 Light Probe Group
+            * 若干個 Light Probe Group
 
-		* Enviornment Lightning 參數設置:
+            * Enviornment Lightning 參數設置:
 
-			Ambient Source: Skybox
+                Ambient Source: Skybox
 
-			Ambient Intensity: 0.5
+                Ambient Intensity: 0.5
 
-			Ambient GI: Baked
+                Ambient GI: Baked
 
-			Reflection Source: Custom, Reflection-Probe 0
+                Reflection Source: Custom, Reflection-Probe 0
 
-			Reflection Intensity: 0.291
+                Reflection Intensity: 0.291
 
-			Reflection Bounces: 3
+                Reflection Bounces: 3
 
-		* GI 參數設置:
+            * GI 參數設置:
 
-			Baked Resolution: 40
+                Baked Resolution: 40
 
-			Baked Padding: 2
+                Baked Padding: 2
 
-			Altas size: 512
+                Altas size: 512
+    </details>
 
 * 光源設置，修改後: 
 
-		* 三個大範圍的點光源 (高Range) 照亮環境
+    <details>
+    <summary>
+        展開
+    </summary>
 
-			Color = (255, 255, 255)
-			Baked
-			Range: 1
-			Intensity = 2
-			Bounce Intensity = 1
-			Soft Shadow (Holy ShXt，我當初到底在想甚麼)
+            * 三個大範圍的點光源 (高Range) 照亮環境
 
-		* 主要平行光  (向房內照射)
-			Rotation = (-59.549, -65.979, 70.86)
-			Color = (255, 255, 255)
-			Baked
-			Intensity = 0.8
-			Bounce Intensity = 1.2
-			No Shadow
+                Color = (255, 255, 255)
+                Baked
+                Range: 1
+                Intensity = 2
+                Bounce Intensity = 1
+                Soft Shadow (Holy ShXt，我當初到底在想甚麼)
 
-		* 陰影平行光 (向房內照射)
-			
-			Rotation = (-70.945, 26.115, -18.694)			
-			Color = (255, 255, 255)
-			Realtime
-			Intensity = Bounce Intensity = 1
-			Soft Shadow, Low Res, Strength = 0.6
+            * 主要平行光  (向房內照射)
+                Rotation = (-59.549, -65.979, 70.86)
+                Color = (255, 255, 255)
+                Baked
+                Intensity = 0.8
+                Bounce Intensity = 1.2
+                No Shadow
 
-		* 補償平行光 (向房外內照射)
-			
-			Rotation = (140.36, -87.98999, 50.067)
-			Color = (255, 255, 255)
-			Realtime
-			Intensity = .84
-			Bounce Intensity = 1
-			No Shadow		
+            * 陰影平行光 (向房內照射)
+                
+                Rotation = (-70.945, 26.115, -18.694)			
+                Color = (255, 255, 255)
+                Realtime
+                Intensity = Bounce Intensity = 1
+                Soft Shadow, Low Res, Strength = 0.6
 
-		* Haku 補償平行光
+            * 補償平行光 (向房外內照射)
+                
+                Rotation = (140.36, -87.98999, 50.067)
+                Color = (255, 255, 255)
+                Realtime
+                Intensity = .84
+                Bounce Intensity = 1
+                No Shadow		
 
-		* 一個 Reflection Probe 設置在花瓶桌前
+            * Haku 補償平行光
 
-			// 玻璃的Reflection Probe 設置 為 Simple 模式，並且 Override Anchor 到 目標 Reflection Probe 的 Transform
+            * 一個 Reflection Probe 設置在花瓶桌前
 
-			Position = (-10.58, -17.18, 13.81)
-			Scale = (5, 5, 5)
-			Realtime, Refresh On Awake
-			Box Size = (4.665749, 7.8, 11.66156)
-			Box Offset = (2.332874, 1.192093e-07, 0.5307815)
-			Resolution = 128
-		
-		* 一個 Reflection Probe 設置在鏡子前
+                // 玻璃的Reflection Probe 設置 為 Simple 模式，並且 Override Anchor 到 目標 Reflection Probe 的 Transform
 
-			// 鏡子的Reflection Probe 設置 為 Simple 模式，並且 Override Anchor 到 目標 Reflection Probe 的 Transform
+                Position = (-10.58, -17.18, 13.81)
+                Scale = (5, 5, 5)
+                Realtime, Refresh On Awake
+                Box Size = (4.665749, 7.8, 11.66156)
+                Box Offset = (2.332874, 1.192093e-07, 0.5307815)
+                Resolution = 128
+            
+            * 一個 Reflection Probe 設置在鏡子前
 
-			Position = (-0.49, -33.53, 10.75)
-			Scale = (5, 5, 5)
-			Realtime, Refresh On Awake
-			Box Size = (10.34, 7.8, 15.55)
-			Box Offset = (0.8, 0, 0)
-			Resolution = 512
+                // 鏡子的Reflection Probe 設置 為 Simple 模式，並且 Override Anchor 到 目標 Reflection Probe 的 Transform
 
-		* 若干個 Light Probe Group
+                Position = (-0.49, -33.53, 10.75)
+                Scale = (5, 5, 5)
+                Realtime, Refresh On Awake
+                Box Size = (10.34, 7.8, 15.55)
+                Box Offset = (0.8, 0, 0)
+                Resolution = 512
 
-		* Enviornment Lightning 參數設置:
+            * 若干個 Light Probe Group
 
-			Ambient Source: Skybox
+            * Enviornment Lightning 參數設置:
 
-			Ambient Intensity: 0.5
+                Ambient Source: Skybox
 
-			Ambient GI: Baked
+                Ambient Intensity: 0.5
 
-			Reflection Source: Custom, Reflection-Probe 0
+                Ambient GI: Baked
 
-			Reflection Intensity: 0.291
+                Reflection Source: Custom, Reflection-Probe 0
 
-			Reflection Bounces: 3
+                Reflection Intensity: 0.291
 
-		* GI 參數設置:
+                Reflection Bounces: 3
 
-			Baked Resolution: 40
+            * GI 參數設置:
 
-			Baked Padding: 2
+                Baked Resolution: 40
 
-			Compressed
+                Baked Padding: 2
 
-			Ambient Occulusion
-				Max Distance = 2
-				Indirect = 2
-				Direct = 1
+                Compressed
 
-			Final Gather
-				Ray count = 256
-				Denoising
+                Ambient Occulusion
+                    Max Distance = 2
+                    Indirect = 2
+                    Direct = 1
 
-			Altas size: 512
+                Final Gather
+                    Ray count = 256
+                    Denoising
+
+                Altas size: 512
+
+    </details>
 
 * 其它的 畫框玻璃物件 反射應該會有點錯誤，因為 只有兩個 Reflection Probe 可以 Blend (缺少一個最大的 Probe 涵蓋全景)，不過因為角度不明顯，因此不另外修正
 
@@ -1575,38 +1599,7 @@
 
 * Haku 頭髮的物理模擬 執行續 調整為 Single Thread (比較 Stable 一點)，不過依舊會有看到後才開始計算物理的問題 (有可能是這個計算考慮到 view 的關係)
 
-<details>
-<summary>Previews:</summary>
-
-OLD
-
-![](./img/old3.png)
-
-NEW
-
-![](./img/new3.png)
-
-OLD
-
-![](./img/old2.png)
-
-NEW
-
-![](./img/new2.png)
-
-OLD
-
-![](./img/old1.png)
-
-NEW
-
-![](./img/new1.png)
-
-</details>
-
-
-
-### Lunch 場景
+## Lunch 場景
 
 * 拿掉四周牆壁，加回原始模型就有的欄杆，調整欄杆到比較不反光，也針對新的欄杆加上 Collider
 
@@ -1618,7 +1611,7 @@ NEW
 
 * 手動修正周圍場景的建築物 (面數上沒有減非常多，但是 Set Passes 減少了部分，fps 數得以提升)
 
-### Office 場景
+## Office 場景
 
 * 遊玩時間調整為 120 秒
 
@@ -1650,7 +1643,7 @@ NEW
 
 * 否決高對比 (Contrast, Saturation) 的 Post Processing，不開 Post Processing 以追求比較自然的光影效果
 
-### BadEnding
+## BadEnding
 
 * Ending [B]
 
@@ -1660,7 +1653,7 @@ NEW
 
 * 最後面加入 Canvas 瞬間消失 + 聲音的效果
 
-### ChurchFailedScene
+## ChurchFailedScene
 
 * 加入新的場景，目的為帶過 失敗 ~ 挑戰 的過程
 
@@ -1676,7 +1669,7 @@ NEW
 
 * 如果不放棄，降下 Ipad 並進到 MHHScene
 
-### MHHScene
+## MHHScene
 
 * 加入新的場景，目的為挑戰雌火龍
 
@@ -1750,13 +1743,13 @@ NEW
 
 			Post Exposure = 0.4
 
-### OneMoreChanceScene
+## OneMoreChanceScene
 
 * 加入新的場景，目的為跑提示 + 回到原始開頭
 
 * GlobalManager.AdjustThreshold() 調整分數限制，使得 Ending 可能
 
-### MHHFailedScene
+## MHHFailedScene
 
 * 加入新的場景，目的為讓你重新挑戰
 
@@ -1766,7 +1759,7 @@ NEW
 
 * 後面擺了三個大 Ipad 充當額外提示
 
-### GoodEnding
+## GoodEnding
 
 * Ending [A]
 
@@ -1776,7 +1769,7 @@ NEW
 
 * Setup Salt
 
-### SpecialOpening
+## SpecialOpening
 
 * 加入新的場景，目的為提示到了盡頭
 
@@ -1784,7 +1777,7 @@ NEW
 
 * 配合音樂客制化調整 Kino.Glitch 的時間點
 
-### ClearOpening
+## ClearOpening
 
 * 加入新的場景，目的為開頭教學 + 些許福利
 
@@ -1794,7 +1787,7 @@ NEW
 
 * GlobalManager.AdjustThreshold() 調整分數限制，使得 Ending 可能
 
-### 其它
+## 其它
 
 * 流程上重新調整，遊玩時間變長
 
@@ -1817,10 +1810,3 @@ NEW
 * 2 代預告片重新錄製 1代預告片的部分內容 (來套上新的 GI 效果) + 多了 40 秒左右的片段
 
 * Meta Salt 的設計
-
-<details>
-<summary>Bugs require Fix:</summary>
-
-* More less-important details are in todo.md
-
-</details>
