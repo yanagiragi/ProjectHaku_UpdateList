@@ -1810,3 +1810,44 @@ NEW
 * 2 代預告片重新錄製 1代預告片的部分內容 (來套上新的 GI 效果) + 多了 40 秒左右的片段
 
 * Meta Salt 的設計
+
+
+# 11.1 ~ 11.4 
+
+* 修正為所有路線除了 ChurchFailedScene 放棄外都會重新導到開頭場景
+
+* ClearOpening 加入 Collider 互動，僅限 Pointing Haku
+
+* 修正午餐小房間的比例，改動整個午餐場景的比例
+
+* 修正 Minecraft 破壞大劍 Canvas 位置不正確的 bug
+
+* MHHScene 怪物秉棄掉 延遲時序抓位置的設定，直接改完每個 Frame 用內插 (舊方法) (解決甩尾及持續衝出去的問題)
+
+* MHHScene 怪物更名為 "餘燼龍" (作者聯想用)
+
+* 作弊功能: 跳關, 切換bug, MHH 補血扣血怪物扣血, ClearOpening 全顯示
+
+* Global Game Manager 依舊還是 65 作為新 Threshold
+
+* 調整 MHHScene 中左手 手掌的rotation
+
+* 修正 MHHScene 中 MHHLaser 可以射向自己的 Bug，修正 Reticle & ReticleNo 的出現時機
+
+* 修正 MHHScene 中 玩家會無敵的 Bug (舉盾進入判定區，切換魔法，這樣舉盾判定就會一直在)
+
+* 修正 MHHScene 中 玩家傷害數量錯誤，現在怪物傷害 = 50
+
+* 修正 MHHScene 中 增益魔法 有時候滿等還要等 CD 完才有效果 的 Bug
+
+* 修正 MHHScene 中 大劍無法反應 HP 的 Bug (HealthInstance 拉錯了)
+
+* 修正 MHHScene 中 特定動畫會造成 Loop (canUpdate 沒有更新，針對結尾太長的動畫設定 EndAttack Event)
+
+* ChurchFailedScene 放棄部分 UI 及 音樂問題皆修正
+
+* Opening 場景的 Ipad Return 改用 Box Collider
+
+* ClearOpening 場景的 Ipad Return 改用 Box Collider
+
+* 有時候旋轉鏡頭的角度會有小誤差，有可能是因為 Quaternion.EulerAngles 導致，不過實測之後發現對使用者影響不大，故放置
