@@ -1851,3 +1851,5 @@ NEW
 * ClearOpening 場景的 Ipad Return 改用 Box Collider
 
 * 有時候旋轉鏡頭的角度會有小誤差，有可能是因為 Quaternion.EulerAngles 導致，不過實測之後發現對使用者影響不大，故放置
+
+* 修正 GoodEnding 場景中 花的材質球設定錯誤(Diffuse, Specular, Ambient 過暗) 的 Bug
