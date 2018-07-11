@@ -1853,3 +1853,25 @@ NEW
 * 有時候旋轉鏡頭的角度會有小誤差，有可能是因為 Quaternion.EulerAngles 導致，不過實測之後發現對使用者影響不大，故放置
 
 * 修正 GoodEnding 場景中 花的材質球設定錯誤(Diffuse, Specular, Ambient 過暗) 的 Bug
+
+# 11.5 ~ 12.0
+
+* 優化 Office 的 fps (針對光影做調整)
+
+* 優化 Lunch 的 Draw Call (修改光影、Static Batch)
+
+* 優化 ClearOpening 的 PP, fps (修改場景)
+
+* 所有的 ipad 落下用來偵測要返回的 collider 全部改為 box collider 避免穿透問題
+
+* 修正Office 場景中馬克杯跑掉的問題
+
+# 目前使用者反應可以修正的點 + 且未修正
+
+* OneMoreChanceScene ipad 落下一中間點
+
+* 看起來 火龍在飛行時有時候會canUpdate != true
+
+* MHHScene 合體提示
+
+* MInecraft 傳送門好傳送一點
