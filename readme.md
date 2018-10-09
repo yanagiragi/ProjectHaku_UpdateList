@@ -1875,3 +1875,11 @@ NEW
 * MHHScene 合體提示
 
 * MInecraft 傳送門好傳送一點
+
+# 12.0 up Todo:
+
+* ClearOpening: Hakus Animatior Cull Mode = Always Animate
+
+* Office: Volumetric Lighting
+
+* Texture r/w disable recheck
